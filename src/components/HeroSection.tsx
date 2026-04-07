@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 
-import hero1 from "@/assets/picture1.jpg";
-import hero2 from "@/assets/picture2.jpg";
-import hero3 from "@/assets/picture3.jpg";
-import hero4 from "@/assets/picture4.jpg";
-import hero5 from "@/assets/picture5.jpg";
-import hero6 from "@/assets/picture6.jpg";
+import hero1 from "@/assets/Picture1.jpg";
+import hero2 from "@/assets/Picture2.jpg";
+import hero3 from "@/assets/Picture3.jpg";
+import hero4 from "@/assets/Picture4.jpg";
+import hero5 from "@/assets/Picture5.jpg";
+import hero6 from "@/assets/Picture6.jpg";
 
 const slides = [hero1, hero2, hero3, hero4, hero5, hero6];
 
