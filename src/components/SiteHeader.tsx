@@ -22,7 +22,7 @@ const SiteHeader = () => {
         >
           {/* LOGO */}
           <img
-            src="/logo.jpg"
+            src="/sairam-sec-logo.png"
             alt="Sairam College Logo"
             className="w-48 h-20 object-contain"
           />
@@ -50,7 +50,6 @@ const SiteHeader = () => {
         <nav className="hidden md:flex items-center gap-12">
           {[
             { label: "S2T Editions", id: "timeline" },
-            { label: "Adutha Ilakku", id: "adutha-ilakku" },
             { label: "Leadership", id: "leadership" },
           ].map((item) => (
             <button

@@ -200,7 +200,7 @@ const EditionDetail = ({
 
           {nextEdition ? (
             <Button onClick={() => onNavigate(nextEdition.year)}>
-              Adutha Ilakku →
+              Next Edition →
             </Button>
           ) : (
             <Button onClick={onScrollToAdutha}>

@@ -42,7 +42,7 @@ const Index = () => {
         />
       )}
       <div id="leadership">
-        <AduthaIlakku />
+      
         <Leadership />
       </div>
       <FinalImpact />
