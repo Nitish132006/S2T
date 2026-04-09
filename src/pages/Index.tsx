@@ -9,6 +9,8 @@ import Leadership from "@/components/Leadership";
 import FinalImpact from "@/components/FinalImpact";
 import SiteFooter from "@/components/SiteFooter";
 import { editions } from "@/data/editions";
+import ParticipationGrowth from "@/components/ParticipationGrowth";
+import EventList from "@/components/EventList";
 
 const Index = () => {
   const [activeYear, setActiveYear] = useState<number | null>(2018);
@@ -41,6 +43,8 @@ const Index = () => {
           onScrollToAdutha={scrollToAdutha}
         />
       )}
+      <ParticipationGrowth />
+      <EventList />
       <div id="leadership">
       
         <Leadership />
